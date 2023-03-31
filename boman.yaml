@@ -1,17 +1,12 @@
  
 Auth:
-  project_token: "85295c9e-89f2-4123-a90b-ddcd72d3ae76"
-  customer_token:  "1f3dc7b3-cb4e-4eb9-b5ee-c780947f12e3" #devtokens
-
-
-SAST:
-  language: 'csharp'
-  
+  project_token: ab7ff67f-2f49-4fe3-a281-00e0718e02ea
+  customer_token: 4b36ce06-05a1-43f9-a0e9-0c98a26594fa
+# SAST:
+#   language: python-snyk-sast
+# DAST:
+#   type: "WEB"
+#   URL: "https://demo.testfire.net/"
 SCA:
-    language: "csharp"
-    
-DAST:
-  type: "WEB" ## API, WEB, WEB-ADV
-  URL: "https://ibegin.tcs.com/iBegin/?geography=IN&language=EN" 
-
-Secret_Scan: True
+  language: python-snyk-sca
+Secret_Scan: true
